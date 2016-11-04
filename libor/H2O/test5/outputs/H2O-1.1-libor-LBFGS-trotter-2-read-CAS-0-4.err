@@ -1,0 +1,3 @@
+slurmstepd: error: Job 73348272 exceeded memory limit (8192048 > 8192000), being killed
+slurmstepd: error: Job 73348272 exceeded memory limit (8192048 > 8192000), being killed
+slurmstepd: error: *** JOB 73348272 ON holy2a21205 CANCELLED AT 2016-10-20T23:27:27 ***

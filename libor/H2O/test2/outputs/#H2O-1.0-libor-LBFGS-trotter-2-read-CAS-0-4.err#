@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "variationalCASlibor.py", line 1243, in <module>
+    main()
+  File "variationalCASlibor.py", line 1099, in main
+    hf_state =  readMolproState(molproFile)
+  File "variationalCASlibor.py", line 184, in readMolproState
+    state = numpy.loadtxt(molproFile,dtype=complex,skiprows=1)
+  File "/n/sw/fasrcsw/apps/Core/Anaconda/2.1.0-fasrc01/x/lib/python2.7/site-packages/numpy/lib/npyio.py", line 737, in loadtxt
+    fh = iter(open(fname, 'U'))
+IOError: [Errno 2] No such file or directory: '/h/home08/jromerofontalvo/libor/H2O/data/r_1.0/mps.out'
+/n/home08/jromerofontalvo/libor/H2O/data/r_1.0

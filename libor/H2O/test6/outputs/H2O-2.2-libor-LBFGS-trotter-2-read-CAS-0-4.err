@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "variationalCASlibor.py", line 1247, in <module>
+    main()
+  File "variationalCASlibor.py", line 1076, in main
+    fci_energy, repulsion, coefficients, ham_terms = commutators.GetHamiltonianTerms(molecule, basis, n_orbitals=n_orbitals, path=guesspath)
+  File "/n/home08/jromerofontalvo/paper_calculations/commutators.py", line 254, in GetHamiltonianTerms
+    with open(name, 'r') as file:
+IOError: [Errno 2] No such file or directory: '/n/home08/jromerofontalvo/libor/H2O/guesses2/guessExactGen/H2O-2.2-libor-gen.guess'

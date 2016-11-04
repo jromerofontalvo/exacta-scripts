@@ -1,0 +1,29 @@
+
+Molecule_name = h2o_disoc;
+Outtext_      = h2o_disoc.out;
+
+CL = 8; % number of sites
+
+n_tot  = 4;
+K_tot  = NaN;               % NaN to exclude ORBsym
+Qnumbers_type     = {U(1)};
+Qnumbers_operator = {n};
+
+order = [ 1 5 2 6 3 7 4 8 ];
+CAS_orb = [ 1 5 2 6 3 7 4 8 ];
+
+HF_orb  = [1 3 5 7];
+HF_ocu  = [2 2 2 2];
+
+%---------------------------------------------------------
+E_FCI = -76.003087098168;
+E_HF  = ;
+%---------------------------------------------------------
+
+V_sym = 8;
+
+FCIDUMP = /Users/libor/data/projekty/harvard/mps/h2o_disoc/r_1.2/FCIDUMP
+C4_to_C2= true;
+
+Modelfile = model_chemistry_spinless
+

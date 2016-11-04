@@ -1,0 +1,21 @@
+#!/bin/bash
+
+#SBATCH -n 1                # Number of cores
+#SBATCH -N 1                 # Ensure that all cores are on one machine
+#SBATCH -t DAYS-00:00:00           # Runtime in D-HH:MM
+#SBATCH -p aspuru-guzik		     # Partition to submit to
+#SBATCH --mem=MEMORY            # Memory pool for all cores (see also --mem-per-cpu)
+#SBATCH -o /n/home08/jromerofontalvo/libor/MOLECULE/TEST/OUTPUTFOLDER/MOLECULE-DIST-BASE-OPTMETHOD-PREPMETHOD-NTROTTER-GUESSTHRESHOLD-CAS-frozen-virt.out      # File to which STDOUT will be written
+#SBATCH -e /n/home08/jromerofontalvo/libor/MOLECULE/TEST/OUTPUTFOLDER/MOLECULE-DIST-BASE-OPTMETHOD-PREPMETHOD-NTROTTER-GUESSTHRESHOLD-CAS-frozen-virt.err      # File to which STDERR will be written
+
+# User specific aliases and functions
+source new-modules.sh
+module load Anaconda/2.1.0-fasrc01
+
+cd /n/home08/jromerofontalvo/paper_calculations/
+
+integralFolder=/n/home08/jromerofontalvo/libor/MOLECULE/integrals
+guessFolder=/n/home08/jromerofontalvo/libor/MOLECULE/guesses2/guessMP2Gen
+initialState=/n/home08/jromerofontalvo/libor/H2O/data/r_DIST/mps.out
+
+python variationalCASlibor.py MOLECULE DIST-BASE 1 "ucc" frozen virt $integralFolder/MOLECULE-DIST-BASE.int $guessFolder/MOLECULE-DIST-BASE-gen.guess OPTMETHOD PREPMETHOD NTROTTER GUESS USEHF HFSTATE $initialState

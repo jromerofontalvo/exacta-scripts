@@ -1,0 +1,341 @@
+
+% ------------ Model parameters -----------------------------------------
+ Date            =  28-Sep-2016;
+ Date_Time       = [  2016     9    28    20    14     3]
+ Computer_type   =  MACI64;
+ Input_file      =  /Users/libor/data/projekty/harvard/mps/h2o_disoc/r_2.15/model.h2o_disoc.input;
+ Output_dir      =  ./;
+ Output_scratch  =  /Users/libor/temp/scratch5/;
+ Molecule        =  h2o_disoc;
+ Chainlength     =      8;
+ Filling         =  0.250;
+
+ Total_momentum  =    NaN;
+ E_FCI           =  [       -75.763006080000  ];
+
+ E_HF            =  ;
+ Eigval          =  [         1.000000000000  ];
+
+ Ordering = [   1   5   2   6   3   7   4   8 ];
+
+ HF_orb   = [   1   3   5   7 ];
+ HF_ocu   = [   2   2   2   2 ];
+
+ CAS_orb   = [   1   5   2   6   3   7   4   8 ];
+
+ State_tot = [   4];
+
+ Eigval = [  1];
+
+ M_max      =  32;   
+ M_min      =  32;   
+ Ml_start   =  32;   
+ Mr_start   =  32;   
+ TRE_max    =   1.000e-04;
+ k_i_orig = [   1   1   3   3   1   1   3   3 ];
+
+ k_i = [   1   1   1   1   3   3   3   3 ];
+
+ e_k = [   0   0   0   0   0   0   0   0 ];
+
+
+ s = 1;
+ m = 60;
+ h = 60*60;
+ d = 60*60*24;
+% ------------ DMRG parameters  -----------------------------------------
+
+% StorageMode =     1
+% Memoryopt =     0
+% NumCores =     1
+% maxNumCompThreads =     2
+% ModelTest =     0
+% DMRGMODE = DMRG
+% M_max =    32
+% M_min =    32
+% ML_start =    32
+% MR_start =    32
+% DM_cut = 1.000000e-04
+% DM_cutst = 
+% DM_cut_orig = 1.000000e-04
+% DM_cut_isvector =     0
+% Eigval =     1
+% p_n =     1
+% Spectrum = SA
+% Case_ = one
+% sym_ud =     0
+% Iter_ =     1
+% Step_ =     1
+% MAX_ITER = 
+% MAX_SWEEP =     5
+% SweepEThr =   NaN
+% Cont_data = 
+% HOME = /home/legeza/
+% TMP = /Users/libor/temp/scratch5/
+% RES = ./
+% HF_test =     0
+% V_symtest =     0
+% sym_test =     0
+% Hexpt =     0
+% Hexpt_eig =     0
+% Jexpt =     0
+% Dexpt =     0
+% Sexpt =     0
+% Rexpt =     0
+% Iexpt =     0
+% Iexpt_opformat = opp
+% EXACT =     0
+% Siexpt =     0
+% Dimerord =     0
+% Rhoexpt_eig =     0
+% fullH =     0
+% QDCompr =     0
+% Cuthill =     0
+% rho_0pt =     0
+% rho_1pt =     0
+% flag_endtoend =     0
+% rho_2pt =     0
+% spectral_function =     0
+% pt_calculate_at = end
+% pt_betweensameeigvals =     1
+% pt_output = mat
+% pt_parallel_cores =     1
+% pt_parallel_pause =     5
+% stringorder =     0
+% Psi2disk =     1
+% MPS_form =     1
+% MPS_cleartext =     0
+% DeleteTemp =     0
+% Psi_parity =     0
+% Enforce_Psi_ud_parity =     0
+% Enforce_Psi_eh_parity =     0
+% Enforce_Psi_lr_parity =     0
+% Debugmode =     1
+% rev_enabled =     1
+% rev_enabled_orig =     1
+% Datazip =     0
+% SBlock_config = lqqr
+% SBH_mult_config = LR
+% Diagfun = eig
+% Diagfig =     8
+% Diagvecmax =   200
+% itmax =    40
+% StartVec_use =     2
+% Diagfunst = eig
+% Diagfigst =     8
+% Diagvecmaxst =    20
+% itmaxst =    40
+% StartVec_use_inf =     1
+% Infalg =     0
+% Trunc_proc =     3
+% Turn_cond =     0
+% Disk_info =     0
+% symop =     0
+% CI =     3
+% DEAS_symop =     0
+% DEAS_save_psi =     0
+% Use_deas =     0
+% ModeTrafo_use =     0
+% ModeTrafo =     0
+% ModeTrafo_type =     0
+% ModeTrafo_start =     3
+% ModeTrafo_exluded = 
+% RDM1 =     0
+% RDM2 =     0
+% RDM2_ops =     0
+% fciqmc_dump =     0
+% NumWorkers =     1
+% Input_function = model.h2o_disoc.input
+% ExcludeDEASfunctions =     0
+% Machine = MACI64
+% Spacemode =     3
+% NNearest = 
+% Iter__ =     1
+% Iter_shift = 
+% Sweep = 
+% TRerror = 
+% Iter = 
+% Hterms = 
+% I_mutual = 
+% V_case = triu
+% EOS =     1
+% NFIG = 
+% Resdir = 
+% form_Hfull = 
+% Memorydefrag = 
+% left_start = 
+% fid =     5
+% Input_function_orig = /Users/libor/data/projekty/harvard/mps/h2o_disoc/r_2.15/model.h2o_disoc.input
+% Inputfile = dmrg.input.jhonatan_exact
+% Input_fname = model.h2o_disoc.input
+% DM_cut_orig_exists = 
+% Enforce_Psi_ud_parity_orig =     0
+% Enforce_Psi_eh_parity_orig =     0
+% op4_use =     0
+% kblocking =     0
+% Memory_use =     0
+% Parallel =     0
+% SymOp_jz =     0
+% deastest =     0
+% V_setup_function =     3
+% Spin = 5.000000e-01
+% FCIDUMP = /Users/libor/data/projekty/harvard/mps/h2o_disoc/r_2.15/FCIDUMP
+% Infalg =     0
+% L4 =     1
+% R4 =     1
+% L1R3 =     1
+% L3R1 =     1
+% L2R2 =     1
+% TLR =     1
+% TL =     1
+% TR =     1
+% Spacemode =     3
+% Operators_type =     1
+% Hubbard =     0
+% spin_dep = 
+% NuclearShellVersion =     0
+% mass_rescale =     1
+% fact_ = 5.000000e-01
+% core_excl = 
+% virtual_excl = 
+% active =     1    2    3    4    5    6    7    8
+% Molecule_name = h2o_disoc
+% Outtext_ = h2o_disoc.out
+% n_tot =     4
+% K_tot =   NaN
+% Qnumbers_type =  U(1)
+% Qnumbers_operator =  n
+% HF_ocu = 
+% E_FCI = -7.576301e+01
+% E_HF = 
+% V_sym =     8
+% C4_to_C2 =     1
+% Modelfile = model_chemistry_spinless
+% fid =     5
+% V_ = 
+% NNearest = 
+% Complex =     0
+% T_nuc = -7.147050e+01
+% SiteOperators =  F1 F1 F1 F1 F1 F1 F1 F1
+% Operators = 
+% Hamilton11 =  opa1cp c
+% Hamilton11_rev =  cp opa1c
+% Hamilton31 =  opa31 c
+% Hamilton13 =  cp opa33
+% Hamilton22 =  opa2cpcp opa2cpc op2cc op2cpc
+% Hamilton22_rev =  op2cpcp op2cpc opa2cc opa2cpc
+% Hamilton_all =  op4 id opa1cp opa31 cp opa2cpcp opa2cpc
+% Hamilton_all_rev =  op4 id cp opa31 cp op2cpcp op2cpc
+% Hamilton_all_opreorder_L =     1    4    6    7    3    5    2
+% Hamilton_all_opreorder_R =     2    5    6    7    3    4    1
+% Hamilton_all_constructiondataR =  Size_act Size_act
+% Hamilton_all_rev_constructiondataR =  Size_act Size_act
+% Hamilton_all_constructiondataL =  Size_act Size_act
+% Hamilton_all_rev_constructiondataL =  Size_act Size_act
+% Hamilton_opa1cp_1000 =  opa1cp cp
+% Hamilton_opa1cp_new_1000 =  op1V_cp cp
+% Table_opa1cp_1000 =  op1V_cp 
+% Hamilton_opa2_1000 =  opa2cpcp opa2cpc opa2cpc
+% Hamilton_opa2cpcp_1000 =  op2V_op2cpcp op2cpcp
+% Hamilton_opa2cpc_1000 =  op2V_op2cpc op2V_op2cpc_tp op2cpc
+% Table_opa2_1000 = 
+% Hamilton_opa31_1000 =  opa31 cp cp c
+% Hamilton_op4_1000 =  op4 cp cp c c symop op4
+% Hamilton_opa1c_0001 =  opa1c c
+% Hamilton_opa1c_new_0001 =  op1V_c c
+% Table_opa1c_0001 =  op1V_c 
+% Hamilton_op2_0001 =  op2cc op2cpc c cp c
+% Hamilton_opa2_0001 =  opa2cc opa2cpc opa2cpc
+% Hamilton_opa2cc_0001 =  op2V_op2cc op2cc
+% Hamilton_opa2cpc_0001 =  op2V_op2cpc op2V_op2cpc_tp op2cpc
+% Table_opa2_0001 = 
+% Hamilton_opa33_0001 =  opa33 cp c c
+% opa33_0001_core = 
+% Hamilton_op4_0001 =  op4 cp cp c c symop op4
+% Table_core_iclcjaka = 
+% Table_op4_core_v = 
+% DeasCoreStateIndex =     2
+% Hamilton_cp_1100 =  cp ph id cp
+% Hamilton_c_1100 =  c ph id c
+% Hamilton_opa1cp_1100 =  opa1cpV2 opa1cp ph id cp
+% Table_opa1cp_1100 = 
+% Hamilton_op2cpcp_1100 =  op2cpcp cp id cp
+% Hamilton_op2cpc_1100 =  op2cpc cp id id
+% Table_opa2_1100 = 
+% Table_opa2core_1100 = 
+% Hamilton_opa2_1100 =  opa2cpcp
+% Hamilton_opa2cpcp_1100 =  op2V12 op2V12 opa2cpcp cp id id
+% Hamilton_opa2cpc_1100 =  op2V53 op2V53 op2V53ji opa2cpc cp id
+% Hamilton_opa2core =  opa2cpc_core opa2cpc_core opa2cpc_core
+% Hamilton_opa2core_rev =  opa2cpc_core opa2cpc_core opa2cpc_core
+% Hamilton_opa2core_lqqr =  op2V_cp_c_core op2V_cp_cp_tp_core op2V_id_op2cpc_core opa2cpc_core cp cp
+% Hamilton_opa2core_rev_lqqr =  op2V_op2cpc_id_core op2V_op2cpc_id_tp_core op2V_cp_c_core op2V_cp_cp_tp_core op2V_id_op2cpc_core op2cpc op2cpc
+% Hamilton_opa31_1100 =  op3V4 op3V3161 opa31 opa2cpc
+% Hamilton_opa31_rev_1100 =  op3V_op2cpcp_c op3V_op2cpc_cp op3V_op2cpc_cp_tp op3V4 op3V3161 opa31
+% Table_opa31_1100 = 
+% Hamilton_op4_1100 =  op4V1 op4V4 opa4V_id_op2cpc
+% Hamilton_op4_rev_1100 =  op4V1 op4V_op2cpc_op2cpc op4V_op2cpc_op2cpc_tp op4V4 op4V_cp_c
+% Table_op4_1100 = 
+% Hamilton_cp_0011 =  id cp cp id ph
+% Hamilton_c_0011 =  id c c id ph
+% Hamilton_opa1c_0011 =  op1V_c_id id c opa1c id ph
+% Table_opa1c_0011 =  op1V_c_id 
+% Table_opa1cp_0011 = 
+% Hamilton_op2cc_0011 =  op2cc c id id
+% Hamilton_op2cpc_0011 =  op2cpc cp id id
+% Table_opa2_0011 = 
+% Hamilton_opa2cc_0011 =  op2V_c_c id c opa2cc c
+% Hamilton_opa2cpc_0011 =  op2V_cp_c op2V_c_c_tp op2V_op2cpc_id id cp c
+% Table_opa2core_0011 = 
+% Hamilton_opa33_0011 =  op3V6162 op3V41 op3V21 op3V5152 op3V51b52b op3V5152core
+% Hamilton_opa33_rev_0011 =  op3V6162 op3V41 op3V5152core id
+% Table_opa33_0011 = 
+% Table_opa33_core_0011 = 
+% Hamilton_op4_0011 =  op4Vop31 op4Vop2cpcp op4Vop2cpc op4Vop4 opa4V_cp_c
+% Hamilton_op4_rev_0011 =  op4Vop31 op4Vop4 opa4V_op2cpc_id
+% Table_op4_0011 = 
+% Table_op4_core_0011 = 
+% L1R1 =     1
+% State_tot =     4
+% Qnum_file = 
+% pt1_add_transponate =     0
+% current_add_transponate =     0
+% R_in =     1    2    3    4    5    6    7    8
+% deas_ops = 
+% ------------ Legend          -----------------------------------------
+
+% Step  ==  One renormaliztaion step in DMRG 
+% E_rel ==  (E_FCI - E_DMRG)/E_FCI
+% E_tr  ==  Truncation error
+% l*    ==  Length of left block + site
+% *r    ==  Length of site + right block  
+% Time  ==  Total cpu time
+% Dim_n ==  Superblock Hilbert space dimension after State_tot restriction
+% Dim_k ==  Superblock Hilbert space dimension after K_tot    restriction
+% Dim_s ==  Superblock Hilbert space dimension after S_ud     symmetry
+% SP    ==  Sparsity of Hamiltonian
+% Cm    ==  Colmax
+% NLC   ==  Number of Lanczos calls   
+% --------------------------------------------------------
+
+%Iter         Energy        E_rel    l*  *r   Ml   Mr    E_tr     Time    Dim_n  Dim_k  Dim_s  NLC  Diagt  1-StvO  Ecorr  Parity
+ A_in = [... 
+    1    -75.76300607826877  4.03e-10    2    6     2    30  0.00e+00    3.8*s         70         70         70    0     0.0*s  1.0e+00  0.00  0.00
+    2    -75.76300607826879  4.03e-10    3    5     4    16  1.11e-16    6.7*s         70         70         70    0     0.0*s  5.6e-16  0.00  0.00
+    3    -75.76300607826880  4.03e-10    4    4     8     8  0.00e+00    9.3*s         70         70         70    0     0.0*s  0.0e+00  0.00  0.00
+    4    -75.76300607826879  4.03e-10    5    3    16     4 -2.22e-16   11.6*s         70         70         70    0     0.0*s  0.0e+00  0.00  0.00
+    5    -75.76300607826877  4.03e-10    6    2    32     2 -2.22e-16   14.2*s         70         70         70    0     0.0*s  1.1e-16  0.00  0.00
+    6    -75.76300607826880  4.03e-10    5    3    16     4  0.00e+00   16.2*s         70         70         70    0     0.0*s  0.0e+00  0.00  0.00
+    7    -75.76300607826877  4.03e-10    4    4     8     8  1.11e-16   18.2*s         70         70         70    0     0.0*s -2.2e-16  0.00  0.00
+    8    -75.76300607826877  4.03e-10    3    5     4    16  0.00e+00   20.9*s         70         70         70    0     0.0*s -2.2e-16  0.00  0.00
+    9    -75.76300607826879  4.03e-10    2    6     2    32  2.22e-16   23.2*s         70         70         70    0     0.0*s  0.0e+00  0.00  0.00
+   10    -75.76300607826877  4.03e-10    3    5     4    16  0.00e+00   25.7*s         70         70         70    0     0.0*s  0.0e+00  0.00  0.00
+   11    -75.76300607826877  4.03e-10    4    4     8     8  0.00e+00   28.5*s         70         70         70    0     0.0*s  2.2e-16  0.00  0.00
+   12    -75.76300607826880  4.03e-10    5    3    16     4  1.11e-16   31.7*s         70         70         70    0     0.0*s  0.0e+00  0.00  0.00
+   13    -75.76300607826883  4.03e-10    6    2    32     2 -2.22e-16   34.5*s         70         70         70    0     0.0*s  0.0e+00  0.00  0.00
+   14    -75.76300607826877  4.03e-10    5    3    16     4 -2.22e-16   36.4*s         70         70         70    0     0.0*s  2.2e-16  0.00  0.00
+   15    -75.76300607826877  4.03e-10    4    4     8     8  1.11e-16   38.3*s         70         70         70    0     0.0*s  0.0e+00  0.00  0.00
+   16    -75.76300607826880  4.03e-10    3    5     4    16  0.00e+00   40.2*s         70         70         70    0     0.0*s  0.0e+00  0.00  0.00
+   17    -75.76300607826880  4.03e-10    2    6     2    32  2.22e-16   42.4*s         70         70         70    0     0.0*s -2.2e-16  0.00  0.00
+   18    -75.76300607826879  4.03e-10    3    5     4    16  0.00e+00   44.4*s         70         70         70    0     0.0*s  0.0e+00  0.00  0.00
+   19    -75.76300607826880  4.03e-10    4    4     8     8 -2.22e-16   46.4*s         70         70         70    0     0.0*s  1.1e-16  0.00  0.00

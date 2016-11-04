@@ -1,0 +1,12 @@
+#! /bin/bash
+
+
+for i in 0.7 0.8 0.9 1.0 1.1 1.2 1.4 1.6 1.8 2.0 2.2 2.4 2.6 2.8
+do
+  mkdir r_$i
+  cd r_$i
+  sed -e "s/XXX/$i/g" < ../h2o.com > h2o_${i}.com
+  MM12_MP h2o_${i}.com bq 8
+  cd ..
+done
+

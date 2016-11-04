@@ -1,0 +1,10 @@
+ Traceback (most recent call last):
+  File "variationalCASlibor.py", line 1244, in <module>
+    main()
+  File "variationalCASlibor.py", line 1107, in main
+    hf_energy = Expectation(fci_hamiltonian, hf_state)
+  File "variationalCASlibor.py", line 164, in Expectation
+    expectation = psi.getH() * operator * psi
+  File "/n/sw/fasrcsw/apps/Core/Anaconda/2.1.0-fasrc01/x/lib/python2.7/site-packages/scipy/sparse/base.py", line 308, in __mul__
+    raise ValueError('dimension mismatch')
+ValueError: dimension mismatch

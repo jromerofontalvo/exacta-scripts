@@ -1,0 +1,18 @@
+#! /bin/bash
+
+
+for i in 0.7 0.8 0.9 1.0 1.1 1.2 1.4 1.6 1.8 2.0 2.15 2.4 2.6 2.8
+do
+
+	#en=`grep "FCI STATE 1.1 Energy" r_$i/h2o_${i}.com.out | awk '{print $5}'`
+  #sed -e "s/XXX/$en/g" < model.h2o_disoc.input > aux
+  #sed -e "s/YYY/$i/g" < aux > r_${i}/model.h2o_disoc.input
+	#rm aux
+  #sed -e "s/YYY/$i/g" < model.h2o_disoc_hack.input > r_${i}/model.h2o_disoc_hack.input
+  
+	#sed -e "s/YYY/$i/g" < dmrg.input.jhonatan > r_${i}/dmrg.input.jhonatan
+	#sed -e "s/YYY/$i/g" < dmrg.input.jhonatan_exact > r_${i}/dmrg.input.jhonatan_exact
+	sed -e "s/YYY/$i/g" < dmrg.input.jhonatan_hack > r_${i}/dmrg.input.jhonatan_hack
+
+done
+
